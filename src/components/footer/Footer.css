@@ -1,0 +1,64 @@
+footer {
+  padding: 20px;
+  padding-left: 50px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(32, 34, 36);
+}
+footer .end-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+footer .end-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+footer .end-4 {
+  max-width: 400px;
+}
+.end-4 p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+i {
+  margin: 5px;
+}
+.totela h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+li.zzz a {
+  color: rgb(90, 92, 90);
+  transition: all 0.3s ease-in;
+}
+li.zzz a:hover {
+  color: rgb(239, 243, 239);
+}
+ul li.zzz {
+  margin-bottom: 20px;
+}
+
+.bn45 {
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+}
+.bn46 {
+  width: 150px;
+  height: 50px;
+}
+
+@media (max-width: 667px) {
+  footer .end-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  footer .end-2{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2.1rem;
+  }
+}

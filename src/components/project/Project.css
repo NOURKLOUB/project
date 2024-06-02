@@ -1,0 +1,179 @@
+.fogmi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fogmi h1{
+    max-width: 600px;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.fogmi p{
+    color: rgb(114,114,120);
+    margin-top: -10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.buttonsing{
+    width: 100%;
+    background-color: #222c3a;
+    border-radius: 5px;
+    padding: 10px;
+}
+.buttonsing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.buttonsing button{
+    all: unset;
+    color: rgb(15,101,190);
+    cursor: pointer;
+}
+.buttonsing button.active{
+    border: none;
+    outline: none;
+    line-height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(15,101,190);
+    transition:  cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+.porductings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+}
+.card{
+     width: 276px;
+     background-color: rgb(28,30,33);
+     border-radius: 5px;
+     margin-bottom: 22px;
+}
+.card img{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.targrit{
+    padding: 15px;
+}
+
+.leve{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+span.s-1{
+    background-color: #1f2e2c;
+    color: #0ebc87;
+    padding: 3px 7px 3px 7px ;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+span.s-2{
+   color: red;
+   cursor: pointer;
+}
+.targrit h3{
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;  
+    
+}
+.targrit h3:hover{
+    color: rgb(48, 108, 176);
+    cursor: pointer;
+}
+.targrit p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.s-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px
+}
+span.s-4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+i.bi-star-fill{
+  color: yellow;
+  cursor: pointer;
+}
+.s-5{
+    width: 250px;
+    border: 0.5px solid rgb(73, 72, 72);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.s-6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+i.bi-clock{
+    color: red;
+    margin-right: 7px;
+}
+i.bi-table{
+    color: orange;
+    margin-right: 7px;
+}
+@media (max-width:667px) {
+    .porductings{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .card{
+        width: 376px;
+        background-color: rgb(28,30,33);
+        border-radius: 5px;
+        margin-bottom: 32px;
+   }
+   .card img{
+    width: 376px;
+}
+.buttonsing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.fogmi h1{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.fogmi p{
+    text-align: center;
+    margin-bottom: 40px;
+ }
+}

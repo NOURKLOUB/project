@@ -1,0 +1,236 @@
+.borders {
+  border: 1px solid #0cd310;
+}
+section {
+  display: flex;
+  align-items: center;
+  gap: 13rem;
+}
+.total-122 {
+  padding: 12px;
+}
+h1 {
+  font-size: 3rem;
+  max-width: 450px;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+span {
+  position: relative;
+}
+span.svgrs {
+  position: absolute;
+  z-index: -12;
+  top: -1px;
+  left: -8px;
+}
+svg {
+  fill: rgb(247, 195, 46);
+}
+p {
+  color: rgb(161, 161, 167);
+  font-size: 19px;
+  max-width: 600px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.groubs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.groubs span {
+  color: rgb(161, 161, 167);
+}
+i.bi-patch-check-fill {
+  color: #fff;
+  margin-right: 4px;
+}
+.closech {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+button.moves {
+  border: none;
+  outline: none;
+  line-height: 40px;
+  padding: 0 18px;
+  border-radius: 4px;
+  background-color: rgba(255, 0, 0, 0.287);
+  color: rgba(255, 0, 0, 0.874);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+button:active {
+  scale: 0.95;
+}
+a.dispatcheing {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+span.deft {
+  padding: 19px 10px;
+  border-radius: 40px;
+  background-color: rgba(9, 103, 197, 0.507);
+  transition: all 0.4s ease-in;
+}
+span.deft:hover {
+  scale: 1.1;
+}
+span i.bi-play-fill {
+  color: white;
+  background-color: rgb(9, 104, 197);
+  padding: 10px 10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+h6 {
+  color: #fff;
+  font-size: 19px;
+}
+.pnger img.drop {
+  filter: drop-shadow(1px 1px 20px rgba(43, 129, 163, 0.611));
+}
+.pnger img.angluer {
+  position: absolute;
+  top: 113px;
+  right: 103px;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.pnger img.react {
+  position: absolute;
+  left: 790px;
+  top: 260px;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.pnger img.figma {
+  position: absolute;
+  top: 422px;
+  right: 122px;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.propart {
+  position: absolute;
+  top: 504px;
+  left: 702px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+i.bi-envelope-fill {
+  color: #fff;
+  background-color: rgb(247, 195, 46);
+  cursor: pointer;
+  padding: 18px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.drop-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.drop-12 i.bi-check2 {
+  color: red;
+  background: rgb(61, 171, 127);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  padding: 1px;
+}
+.coping {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  right: 52px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 13px;
+  background-color: #41d0ba;
+  background-image: linear-gradient(
+    43deg,
+    #41d0ba 0%,
+    #5061c8 17%,
+    #70ffdf 39%,
+    #0ce40c 60%,
+    #17bbe2 80%,
+    #b9b4b4 100%
+  );
+}
+.imget {
+  display: flex;
+  align-items: center;
+}
+.imget img {
+  width: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 1px solid rgb(8, 30, 36);
+  cursor: pointer;
+}
+img.women {
+  margin-left: -12px;
+}
+span.drfter {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: black;
+}
+.deferantde{
+  display: block;
+}
+@media (max-width:667px) {
+  .deferantde{
+    display: none;
+  }
+  .closech {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top:30px;
+    margin-bottom: 10px;
+  }
+  .total-122 h1{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+    .total-122 p{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+}

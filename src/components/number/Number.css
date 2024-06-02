@@ -1,0 +1,110 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.police{
+    background-color: rgb(67,60,45);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+    border-radius: 10px;
+}
+.police i.bi-tv{
+    font-size: 52px;
+    color: rgb(247,195,46);
+
+}
+.titles{
+    background-color: rgb(34,39,45);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+    border-radius: 10px;
+}
+.titles i.bi-person-fill-check{
+    font-size: 52px;
+    color: rgb(36,49,56);
+
+}
+.foces{
+    background-color: rgb(42,40,57);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+    border-radius: 10px;
+}
+.foces i.bi-spotify{
+    font-size: 52px;
+    color: rgb(111,66,193);
+
+}
+.fiden{
+    background-color: rgb(36,49,56);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+    border-radius: 10px;
+}
+.fiden i.bi-patch-check-fill{
+    font-size: 52px;
+    color: rgb(20,162,184);
+
+}
+.police span{
+    font-size: 1.3rem;
+}
+.titles span{
+    font-size: 1.3rem;
+}
+.fiden span{
+    font-size: 1.3rem;
+}
+.foces span{
+    font-size: 1.3rem;
+}
+.police h6{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.fiden h6{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.foces h6{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.titles h6{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+@media (max-width:667px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .police{
+        width: 99%;
+    }
+    .titles{
+        width: 99%;
+    }
+    .foces{
+        width: 99%;
+    }
+    .fiden{
+        width: 99%;
+    }
+
+}
+
